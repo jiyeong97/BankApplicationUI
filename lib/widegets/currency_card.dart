@@ -35,11 +35,11 @@ class CurrencyCard extends StatelessWidget {
                   name,
                   style: TextStyle(
                     color:isInverted? blackColor : Colors.white,
-                    fontSize: 25,
+                    fontSize: 30,
                   ),
                 ),
                 const SizedBox(
-                  height: 8,
+                  height: 10,
                 ),
                 Row(
                   children: [
@@ -51,7 +51,7 @@ class CurrencyCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(
-                      width: 8,
+                      width: 10,
                     ),
                     Text(
                       code,
